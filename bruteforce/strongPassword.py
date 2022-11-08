@@ -1,4 +1,5 @@
 # https://academiahopper.com.br/random-como-gerar-e-quebrar-senhas-fortes/
+# https://informacaotech.com/criando-seu-proprio-gerador-de-senhas-com-python/
 print("[||||||----Generating Strong Passwords----||||||]")
 
 import string
