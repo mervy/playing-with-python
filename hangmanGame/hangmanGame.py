@@ -7,16 +7,16 @@ name = input("What is your name? ")
 
 # Se tiver a lista de palavras alterar o código abaixo
 def get_word():
-   # with open('Users/Admin/Desktop/words.txt', 'r') as f:
-     #   words1 = f.read().splitlines()
-    words1 = ['amigo', 'namorada', 'amante']
+    with open('words.txt', 'r') as f:
+        words1 = f.read().splitlines()
+   # words1 = ['amigo', 'namorada', 'amante']
 
     return random.choice(words1)
 
 myword = get_word()
 
 for i in myword:
-    print("*", end = " ")
+    print(" * ", end = " ")
 
 l = len(myword)
 print("\nWord has %d letters %l")
